@@ -101,7 +101,7 @@ ul {
 
 .nav {
     display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .nav a {
@@ -119,7 +119,13 @@ ul {
 
 .header-ctas {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
+}
+
+.header-ctas .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 .header:not(.scrolled) .btn-outline {
@@ -593,8 +599,28 @@ ul {
         width: 100%;
     }
     
-    .nav {
+    .nav, .header-ctas {
         display: none;
+    }
+    
+    .header-container {
+        justify-content: center;
+    }
+    
+    .logo img {
+        height: 80px;
+    }
+    
+    .header.scrolled .logo img {
+        height: 60px;
+    }
+    
+    .hero-content {
+        text-align: center;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
     }
     
     .footer-container {
