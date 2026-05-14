@@ -270,6 +270,21 @@ ul {
 .hero-buttons {
     display: flex;
     gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text-link {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition-fast);
+}
+
+.hero-text-link:hover {
+    color: var(--color-cherry);
 }
 
 .hero-mobile-ctas {
